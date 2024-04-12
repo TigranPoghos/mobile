@@ -14,7 +14,9 @@ import {
 } from "react-native";
 import { styles } from "../styles/style";
 import { useState } from 'react';
-import { Axios } from 'axios';
+import  axios  from 'axios';
+import { Alert } from 'react-native';
+
 
 const RegistrationPage = ({ navigation }) => {
   const [name, setName] = useState("");
